@@ -1,3 +1,5 @@
+import CardComponent from "./Card/CardComponent"
+
 export const App = () => {
-  return 123
+  return <CardComponent/>
 }
