@@ -2,18 +2,23 @@ import { Card, Col, Row, Space } from 'antd';
 import { useState } from 'react';
 
 const CardComponent = () => {
-  const [done, setDone] = useState('');
+
+  const currentDateTime = new Date();
+  const formattedDateTime = `${currentDateTime.getDate()}/${currentDateTime.getMonth() + 1}/${currentDateTime.getFullYear()} ${currentDateTime.getHours()}:${currentDateTime.getMinutes()}:${currentDateTime.getSeconds()}`;
+  const [done, setDone] = useState('Chưa thực hiện');
   const [color, setColor] = useState('');
+  const [time, setTime] = useState('');
   const changeToDone = () => {
     setDone('Đã thực hiện');
     setColor('green');
+    setTime(':'+formattedDateTime);
   }
 
   return  <Space direction="vertical" size="large" style={{ width: '100%' }}>
   <Row gutter={[16, 16]}>
     <Col xs={24} sm={12} md={8}>
       <Card title="Đồ ăn" bordered={true} style={{backgroundColor:color}} onClick={changeToDone}>
-        {done}
+        {done} {time}
       </Card>
     </Col>
     <Col xs={24} sm={12} md={8}>
