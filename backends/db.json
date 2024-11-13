@@ -1,0 +1,7 @@
+{
+  "posts": [
+    { "id": "1", "title": "Mua đồ ăn", "time": "", "status": "true" },
+    { "id": "2", "title": "Mua Nước uống", "time": "", "status": "false" },
+    { "id": "3", "title": "Mua Giấy vệ sinh", "time": "", "status": "true" }
+  ]
+}
