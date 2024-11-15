@@ -1,7 +1,76 @@
 {
-  "posts": [
-    { "id": "1", "title": "Mua đồ ăn", "time": "", "status": "true" },
-    { "id": "2", "title": "Mua Nước uống", "time": "", "status": "false" },
-    { "id": "3", "title": "Mua Giấy vệ sinh", "time": "", "status": "true" }
+  "privates": [
+    {
+      "id": "1",
+      "title": "Mua đồ ăn",
+      "time": "",
+      "status": false
+    },
+    {
+      "id": "2",
+      "title": "Mua Nước uống",
+      "time": "",
+      "status": false
+    },
+    {
+      "id": "4",
+      "title": "Mua Giấy vệ sinh",
+      "time": "",
+      "status": false
+    },
+    {
+      "id": "5",
+      "title": "Mua Đũa",
+      "time": "",
+      "status": false
+    },
+    {
+      "id": "6",
+      "title": "Mua Kem đánh răng",
+      "time": "",
+      "status": false
+    },
+    {
+      "id": "7",
+      "title": "Mua Túi Rác",
+      "time": "",
+      "status": false
+    },
+    {
+      "id": "8",
+      "title": "Đóng tiền điện",
+      "time": "",
+      "status": false
+    },
+    {
+      "id": "9",
+      "title": "Đóng tiền gas",
+      "time": "",
+      "status": false
+    },
+    {
+      "id": "10",
+      "title": "Mua Dầu gội",
+      "time": "",
+      "status": false
+    },
+    {
+      "id": "11",
+      "title": "Mua Dầu rửa bát",
+      "time": "",
+      "status": false
+    },
+    {
+      "id": "12",
+      "title": "Đóng tiền học",
+      "time": "",
+      "status": false
+    },
+    {
+      "id": "13",
+      "title": "Đóng tiền điện thoại",
+      "time": "",
+      "status": false
+    }
   ]
 }
